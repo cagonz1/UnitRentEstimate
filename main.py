@@ -34,6 +34,7 @@ pmtStd = 0
 # utility allowance        =    uta()
 # payment standard         =    ps()
 
+
 def uta():
     global ua
     if utilAll == "n":
@@ -54,6 +55,7 @@ def uta():
         ua = 296
     return ua
 
+
 def pys():
     global pmtStd
     if bedSiz == 0:
@@ -71,6 +73,7 @@ def pys():
     elif bedSiz == 6:
         pmtStd = 2743
     return pmtStd
+
 
 # ---variable assignment from calculations---
 
